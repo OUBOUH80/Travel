@@ -1,0 +1,31 @@
+
+
+#container{
+
+        display: flex;
+        flex-direction: row-reverse;
+
+   
+      
+
+}
+
+#list{
+      
+        display: flex;
+        flex-direction: row-reverse;
+  
+}
+
+#card-container {
+   
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top:10% ;
+        margin-left: 20%;  
+ 
+}
+
+
+
+

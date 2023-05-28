@@ -1,0 +1,12 @@
+<div  id="container" [@listAnimation]="cards.length">
+
+<div class="card"  *ngFor = "let card of cards" [@listAnimation]="cards.length">
+ 
+   <img  class="image" [src]="card.image" >
+    <div class="container" >
+      <h4><b>{{ card.title }}</b></h4> 
+      <p class="desc" >{{ card.description }}</p> 
+    </div>
+  </div>
+
+  </div>

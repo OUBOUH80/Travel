@@ -1,0 +1,31 @@
+nav{
+    background-color: skyblue;
+    padding: 10px;
+}
+
+nav img{
+ width: 70px;
+
+}
+
+nav ul{
+    float: right;
+    list-style-type: none;
+
+}
+
+ul li{
+    display: inline-block;
+    padding: 10px;
+    color:  white;
+}
+
+
+
+button{
+    background-color: coral;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    border-radius: 12px;
+}
