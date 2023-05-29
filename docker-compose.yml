@@ -8,6 +8,14 @@ services:
       - MYSQL_DATABASE=travel-db
     ports:
       - "3307:3306"
+  angular-container:
+    image: front-app
+    ports:
+      - "4200:4200"
+    build:
+      context: "./front-app"
+      dockerfile: "DockerFile"
+
   springboot-travel-container:
     image: springboot-travel-container
     ports:
@@ -17,16 +25,9 @@ services:
       SPRING_DATASOURCE_USERNAME: "root"
       SPRING_DATASOURCE_PASSWORD: "root"
     build:
-      context: "./"
+      context: "./back"
       dockerfile: "DockerFile"
     depends_on:
       - mysql-container
 
 
-  angular-container:
-    image: front-app
-    ports:
-      - "4200:4200"
-    build:
-      context: "./"
-      dockerfile: "DockerFile"

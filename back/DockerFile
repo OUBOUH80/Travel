@@ -1,4 +1,12 @@
+# Build Stage
+FROM maven:3.8.4-openjdk-11-slim AS build
+WORKDIR /back
+COPY pom.xml .
+COPY src ./src
+RUN mvn clean package
+
+# Runtime Stage
 FROM openjdk:11
-ADD target/back-0.0.1-SNAPSHOT.jar back-0.0.1-SNAPSHOT.jar
-EXPOSE 8080
-ENTRYPOINT ["java", "-jar" , "back-0.0.1-SNAPSHOT.jar"]
+WORKDIR /back
+COPY --from=build /back/target/back-0.0.1-SNAPSHOT.jar ./back-0.0.1-SNAPSHOT.jar
+CMD ["java", "-jar", "back-0.0.1-SNAPSHOT.jar"]
