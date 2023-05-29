@@ -1,5 +1,5 @@
 nav{
-    background-color: skyblue;
+    background-color: #FFC0CB;
     padding: 10px;
 }
 
@@ -22,8 +22,15 @@ ul li{
 
 
 
+ul li a:hover {
+  color: #6666ff; 
+  text-decoration: none; 
+}
+
 button{
-    background-color: coral;
+    background-color: #6666ff
+
+    ;
     border: none;
     color: white;
     padding: 15px 32px;

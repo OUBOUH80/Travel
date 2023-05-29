@@ -17,9 +17,11 @@ import { AddCardComponent } from './admin/add-card/add-card.component';
 
 
 const appRoute: Routes =[
-  {path: '',redirectTo:'Home', pathMatch:'full'},
+  {path: '',redirectTo:'Cities', pathMatch:'full'},
   {path: 'Home', component:CardComponent},
-  {path: 'LogIn', component:AdminComponent}
+  {path: 'Cities', component:AdminComponent},
+  {path: 'Guides', component:CardProfileComponent},
+  {path: 'SignIn', component:AuthComponent}
 
 ]
 

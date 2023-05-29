@@ -45,7 +45,8 @@ export class AddCardComponent implements OnInit {
 
       if (error.status== 200){
 
-        alert('Your new City has been successfully added ;)')
+        alert('TEst new City has been successfully added ;)')
+   
       }
     
     });

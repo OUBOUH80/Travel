@@ -7,14 +7,14 @@
 }
 
 .container{
-
+    margin     : 80px;
     padding: 2px 16px;
 }
 
 .profile-container {
     position        : relative;
     background-color: #fff;
-    width           :  80%;
+    width           :  20%;
     padding         : 100px 50px 40px;
     border-radius   : 12px;
     box-shadow      : 0 0 60px 5px rgba(0, 0, 0, 0.2);

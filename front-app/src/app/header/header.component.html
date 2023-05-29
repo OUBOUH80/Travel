@@ -2,11 +2,11 @@
 
     <img src="https://seeklogo.com/images/T/tweety-logo-F6627BA4AF-seeklogo.com.png" alt="">
     <ul>
-        <li><a href="#"></a>Home</li>
-        <li><a href="#"></a>About</li>
-        <li><a href="#"></a>LogIn</li>
-        <li><a href="#"></a>SignIn</li>
-        <li> <button>SignIn</button></li>
+        <li><a (click)="redirectToPage('Home')">Home</a></li>
+        <li><a  (click)="redirectToPage('Cities')">Cities</a></li>
+        <li><a  (click)="redirectToPage('Guides')">Guides</a></li>
+        <li><a  (click)="redirectToPage('Chat')">Chat</a></li>
+        <li> <button (click)="redirectToPage('SignIn')">SignIn</button></li>
        
     
     </ul>
