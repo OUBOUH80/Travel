@@ -42,6 +42,11 @@ The project is composed into Three microservices contenerized containerized with
 
 `git clone `
 
+2: Using your cmd, Access to Travel :
 
+`cd Travel`
 
+3: Launch the application using docker compose:
+
+` docker-compose -f docker-compose.yml up `
 
