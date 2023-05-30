@@ -14,3 +14,24 @@ The admin can add and update the locations and guid profiles.
 
 **-** For the admin: add, update and delete distinations and guide profiles.
 
+**Architecture**
+
+The project is composed into Three microservices contenerized containerized with docker:
+   ui-microservice
+   back-end microservice
+   mysql
+
+<img width="201" alt="image" src="https://github.com/OUBOUH80/Travel/assets/76158315/219d6b31-bd88-49b1-9353-f6622dd63c17">
+
+
+
+
+**Technologies used**
+
+***** Front-end: TypeScript (Angular), HTML , css
+***** Back-end: Spring boot
+***** Data base: Mysql
+
+
+
+
