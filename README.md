@@ -42,7 +42,7 @@ The project is composed into Three microservices contenerized containerized with
 
 1: Clone the repository :
 
-`git clone `
+`git clone https://github.com/OUBOUH80/Travel.git `
 
 2: Using your cmd, Access to Travel :
 
@@ -51,4 +51,8 @@ The project is composed into Three microservices contenerized containerized with
 3: Launch the application using docker compose:
 
 ` docker-compose -f docker-compose.yml up `
+
+4: Access the web site in your browser at `http://localhost:4200 `
+
+5: You can also access the web services at `http://localhost:8080/travel/swagger-ui.html#/`
 
