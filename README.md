@@ -26,11 +26,21 @@ The project is composed into Three microservices contenerized containerized with
 
 
 
+
+
 **Technologies used**
 
 ***** Front-end: TypeScript (Angular), HTML , css
 ***** Back-end: Spring boot
 ***** Data base: Mysql
+
+
+
+**Setup instructions**
+
+1: Clone the repository :
+
+`git clone `
 
 
 
