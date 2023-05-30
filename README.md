@@ -7,7 +7,10 @@ The admin can add and update the locations and guid profiles.
 **Features**
 
 **-** View distinations and guide profiles.
+
 **-** View distination details.
+
 **-** User registration and login.
+
 **-** For the admin: add, update and delete distinations and guide profiles.
 
